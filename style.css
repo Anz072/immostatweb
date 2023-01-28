@@ -671,10 +671,12 @@ button:hover .button-text {
 
 header.header-bg {
   border-radius: 0px 0px 10px 10px;
-}
-header.header-bf {
   animation: ease3f 0.2s ease-in;
   animation-fill-mode: forwards;
+}
+header.header-bf {
+  /* animation: ease3f 0.2s ease-in; */
+  /* animation-fill-mode: forwards; */
   /* animation-iteration-count: 1; */
 }
 
