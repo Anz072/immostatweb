@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="La calculatrice la plus avancée au Canada comparant louer VS acheter une propriété. Cet outil gratuit vous permet de simuler des scénarios personnalisés selon votre situation, pour vous aider à prendre une décision entre louer et acheter une maison ou un condo."
+    />
     <title>IMMOSTAT.ca</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
@@ -17,7 +21,7 @@
           <p id="lang1">Français</p>
         </div>
         <div class="language-options" id="otherLanguage" style="display: none">
-          <a href="./en.html" id="lang2">English</a>
+          <a href="./en" id="lang2">English</a>
         </div>
       </div>
     </header>
@@ -28,11 +32,7 @@
             <div id="sec1centerTitle">Faites un choix éclairé.</div>
             <div id="sec1centerMain">
               <div id="sec1centerButton">
-                <a
-                  class="btn"
-                  id="btn1ef"
-                  href="https://immostat.ca/"
-                  target="_blank"
+                <a class="btn" id="btn1ef" href="https://app.immostat.ca/"
                   >Louer VS Acheter</a
                 >
               </div>
@@ -41,7 +41,6 @@
                   class="btn"
                   id="btn2ef"
                   href="https://immostat.ca/proprietelocative"
-                  target="_blank"
                   >Propriété Locative</a
                 >
               </div>
@@ -68,7 +67,7 @@
             <div id="cardtop" class="card">
               <div class="card-details">
                 <p class="text-title" id="title1e">LOUER VS ACHETER</p>
-                <p class="text-body" id="text1e">
+                <p class="text-body" id="text1e" style="color: #33383b">
                   Cet outil gratuit vous permet de faire différentes simulations
                   personnalisées afin de vous aider à prendre une décision entre
                   louer et acheter une propriété. Il vous sera possible de voir
@@ -90,10 +89,7 @@
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <a
-                      class="button-text"
-                      href="https://immostat.ca"
-                      target="_blank"
+                    <a class="button-text" href="https://immostat.ca"
                       ><p
                         style="margin-top: -2px"
                         href="https://immostat.ca/"
@@ -109,7 +105,7 @@
             <div id="cardbtm" class="card">
               <div class="card-details">
                 <p class="text-title" id="title2e">PROPRIÉTÉ LOCATIVE</p>
-                <p class="text-body" id="text2e">
+                <p class="text-body" id="text2e" style="color: #33383b">
                   Insérez vos données, et obtenez toutes les informations utiles
                   afin de faire un choix éclairé avant l’achat de votre
                   prochaine propriété locative : les flux de trésorerie, le taux
@@ -127,7 +123,6 @@
                     <a
                       class="button-text"
                       href="https://immostat.ca/proprietelocative"
-                      target="_blank"
                       ><p style="margin-top: -2px" id="open2e">Ouvrir</p></a
                     >
                   </button>
@@ -140,10 +135,11 @@
 
       <footer id="footer">
         <div class="container">
-          <p>&copy;2023 IMMOSTAT</p>
+          <p>&copy;2023 IMMOSTAT.ca</p>
         </div>
       </footer>
     </section>
+    <script src="jquery-3.6.3.min.js"></script>
     <script src="interactions.js"></script>
   </body>
   <script></script>

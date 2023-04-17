@@ -50,9 +50,10 @@ header {
 }
 #section2 {
   width: 100vw;
-  min-height: 100vh;
   max-width: 100%;
-  height: fit-content;
+  min-height: auto;
+  /* height: 100vh; */
+
   /* background-color: #f7f7f7; */
   color: white;
   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1053%26quot%3b)' fill='none'%3e%3cpath d='M-160.8 338.48C-3.03 335.3 127.31 123.49 433.44 125.68 739.57 127.87 835.07 600.48 1027.68 633.45' stroke='rgba(203%2c 203%2c 203%2c 0.42)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-0.93 460.35C186.56 455.48 346.37 185.76 697.31 185.95 1048.25 186.14 1192.81 587.58 1395.55 603.06' stroke='rgba(203%2c 203%2c 203%2c 0.42)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-106.2 350.06C35.31 348.14 157.25 180.53 434.41 182.06 711.56 183.59 806.45 572.37 975.01 595.09' stroke='rgba(203%2c 203%2c 203%2c 0.42)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-19.78 144.53C119.75 147.19 223.6 321.72 506.96 329.33 790.32 336.94 889.65 558.63 1033.7 563.85' stroke='rgba(203%2c 203%2c 203%2c 0.42)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-214.42 60.97C-72.29 65.27 75.36 256.16 310.75 279.37 546.15 302.58 477.1 555.26 573.34 585.02' stroke='rgba(203%2c 203%2c 203%2c 0.42)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1053'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
@@ -63,11 +64,12 @@ header {
   justify-content: end;
   align-items: center;
   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1600' height='560' preserveAspectRatio='none' viewBox='0 0 1600 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1426%26quot%3b)' fill='none'%3e%3cpath d='M0 55.77L10 35.94L20 92.69L30 40.05L40 68.49L50 104.02L60 161.94L70 187.5L80 244.01L90 230.6L100 199.59L110 191.6L120 199.09L130 156L140 214.02L150 156.25L160 149.37L170 187.85L180 235.56L190 176.12L200 235.69L210 203.56L220 186.85L230 211.55L240 176.3L250 116.39L260 150.05L270 129.36L280 195.77L290 175.96L300 211.34L310 161.09L320 142.72L330 115.87L340 80.93L350 104.49L360 81.34L370 128.54L380 116.89L390 136.63L400 175.85L410 209.18L420 223.52L430 252.28L440 224.85L450 196.74L460 153.61L470 148.57L480 92.59L490 96.94L500 41.68L510 78.15L520 105.74L530 94.87L540 82.67L550 130.15L560 101.57L570 121.25L580 67.28L590 4.07L600 32.46L610 58.48L620 70.91L630 137.52L640 205.34L650 230.1L660 213.9L670 176.25L680 224.28L690 191.27L700 132.23L710 162.38L720 206.79L730 216.94L740 159.11L750 99.8L760 143.05L770 115.5L780 142.98L790 177.03L800 189.55L810 208.67L820 270.93L830 292.7L840 239.46L850 226.14L860 243.67L870 218.34L880 219.22L890 229.04L900 264.07L910 224.54L920 197.16L930 254.58L940 309.91L950 339.55L960 368.06L970 359.28L980 391.82L990 414.3L1000 375.67L1010 310.93L1020 267.75L1030 261.37L1040 215.57L1050 253.05L1060 198.8L1070 195.68L1080 148.49L1090 179.39L1100 131.54L1110 138.89L1120 197.44L1130 137.25L1140 114.3L1150 174.63L1160 115.74L1170 62.29L1180 81.33L1190 19.67L1200 22.53L1210 66.13L1220 73.35L1230 115.79L1240 87.4L1250 145.34L1260 109.3L1270 122.98L1280 191.3L1290 201.77L1300 136.97L1310 78.83L1320 120.84L1330 106.51L1340 172.32L1350 123.44L1360 180.86L1370 130.66L1380 185.04L1390 181.65L1400 214.69L1410 282.37L1420 218.5L1430 232.1L1440 183.26L1450 237.96L1460 192.16L1470 238.3L1480 169.65L1490 143.61L1500 172.88L1510 167.45L1520 115.1L1530 146.75L1540 162.74L1550 201.16L1560 134.96L1570 99.22L1580 161.83L1590 100.81L1600 120.22' stroke='rgba(210%2c 71%2c 215%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 55.77L10 35.94L20 92.69L30 40.05L40 68.49L50 104.02L60 161.94L70 187.5L80 244.01L90 230.6L100 199.59L110 191.6L120 199.09L130 156L140 214.02L150 156.25L160 149.37L170 187.85L180 235.56L190 176.12L200 235.69L210 203.56L220 186.85L230 211.55L240 176.3L250 116.39L260 150.05L270 129.36L280 195.77L290 175.96L300 211.34L310 161.09L320 142.72L330 115.87L340 80.93L350 104.49L360 81.34L370 128.54L380 116.89L390 136.63L400 175.85L410 209.18L420 223.52L430 252.28L440 224.85L450 196.74L460 153.61L470 148.57L480 92.59L490 96.94L500 41.68L510 78.15L520 105.74L530 94.87L540 82.67L550 130.15L560 101.57L570 121.25L580 67.28L590 4.07L600 32.46L610 58.48L620 70.91L630 137.52L640 205.34L650 230.1L660 213.9L670 176.25L680 224.28L690 191.27L700 132.23L710 162.38L720 206.79L730 216.94L740 159.11L750 99.8L760 143.05L770 115.5L780 142.98L790 177.03L800 189.55L810 208.67L820 270.93L830 292.7L840 239.46L850 226.14L860 243.67L870 218.34L880 219.22L890 229.04L900 264.07L910 224.54L920 197.16L930 254.58L940 309.91L950 339.55L960 368.06L970 359.28L980 391.82L990 414.3L1000 375.67L1010 310.93L1020 267.75L1030 261.37L1040 215.57L1050 253.05L1060 198.8L1070 195.68L1080 148.49L1090 179.39L1100 131.54L1110 138.89L1120 197.44L1130 137.25L1140 114.3L1150 174.63L1160 115.74L1170 62.29L1180 81.33L1190 19.67L1200 22.53L1210 66.13L1220 73.35L1230 115.79L1240 87.4L1250 145.34L1260 109.3L1270 122.98L1280 191.3L1290 201.77L1300 136.97L1310 78.83L1320 120.84L1330 106.51L1340 172.32L1350 123.44L1360 180.86L1370 130.66L1380 185.04L1390 181.65L1400 214.69L1410 282.37L1420 218.5L1430 232.1L1440 183.26L1450 237.96L1460 192.16L1470 238.3L1480 169.65L1490 143.61L1500 172.88L1510 167.45L1520 115.1L1530 146.75L1540 162.74L1550 201.16L1560 134.96L1570 99.22L1580 161.83L1590 100.81L1600 120.22L1600 560L0 560z' fill='url(%23SvgjsLinearGradient1427)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1426'%3e%3crect width='1600' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='SvgjsLinearGradient1427'%3e%3cstop stop-opacity='0.65' stop-color='rgba(210%2c 71%2c 215%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='white' offset='0.8'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
-  background-image: url("resources/backdropSec2blurred2.png");
+  background-image: url("resources/backdropSec2blurred2.webp");
   background-repeat: no-repeat;
   background-position: bottom;
   background-color: #f7f7f7;
   background-size: 100% 50%;
+  /* border: solid 12px violet; */
 }
 
 #hero1 {
@@ -169,6 +171,7 @@ button {
   justify-content: center;
   gap: 90px;
   align-items: center;
+  /* border: solid 2px goldenrod; */
 }
 
 #sec2title {
@@ -182,6 +185,7 @@ button {
   background: #f5f5f5;
   transition: 0.4s ease-out;
   width: 100%;
+  /* border: solid 2px rgb(32, 136, 1); */
 
   margin-bottom: 20px;
   /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
@@ -208,7 +212,7 @@ button {
 }
 
 .card-details {
-  color: black;
+  color: #33383b;
   height: 100%;
   gap: 0.5em;
   /* display: grid; */
@@ -219,7 +223,16 @@ button {
 }
 
 .text-body {
-  color: rgb(134, 134, 134);
+  color: #33383b;
+  text-align: justify;
+  line-height: 1.5;
+  min-height: 300px;
+}
+.text1e {
+  color: #33383b;
+}
+.text2e {
+  color: #33383b;
   text-align: justify;
   line-height: 1.5;
   min-height: 300px;
@@ -424,7 +437,7 @@ button:hover .button-text {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("resources/backdrop6.jpg");
+  background: url("resources/backdrop6.webp");
   background-size: auto 70%;
   background-position: center;
 }
@@ -544,13 +557,15 @@ button:hover .button-text {
   transform: translateX(0);
 }
 .section2main {
-  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  height: 90vh;
+  height: fit-content;
+  /* background-color: red; */
+  /* border: solid 2px rebeccapurple; */
+  /* height: 90vh; */
   /* box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px; */
 }
 .language-switch {
@@ -611,24 +626,6 @@ button:hover .button-text {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-#imgLang {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url("france.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-#imgLang2 {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url("united-states.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 #footer {
   background-color: #33383b; /* dark background color */
   color: #fff; /* white text color */
@@ -647,12 +644,15 @@ button:hover .button-text {
   margin: 20px 0;
 }
 .section2mainZero {
+  /* height: 100% !important; */
+  width: 100%;
   height: 100%;
-  min-height: fit-content;
+  /* min-height: fit-content; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: solid 2px greenyellow; */
 }
 #spc23 {
   margin-top: 120px;
@@ -708,11 +708,10 @@ header.header-bf {
   }
   .section2mainZero {
     height: fit-content;
-    border-color: solid 1px red !important;
   }
-  .section2main {
+  /* .section2main {
     height: fit-content;
-  }
+  } */
   .sec1secR {
     gap: 10px;
   }
@@ -750,7 +749,7 @@ header.header-bf {
     mask: linear-gradient(#fff, #fff);
   }
   .sec1secR > div::before {
-    background: url("resources/backdrop6.jpg");
+    background: url("resources/backdrop6.webp");
     background-size: auto 50%;
   }
   .sec1sec {
@@ -853,7 +852,7 @@ header.header-bf {
     mask: linear-gradient(#fff, #fff);
   }
   .sec1secR > div::before {
-    background: url("resources/backdrop6.jpg");
+    background: url("resources/backdrop6.webp");
     background-size: auto 100%;
     max-height: 320px;
   }

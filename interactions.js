@@ -59,6 +59,7 @@ $(document).ready(function () {
     }
   });
   // }
+  console.log("dabz");
 });
 
 window.onload = function () {
@@ -69,6 +70,11 @@ window.onload = function () {
   } else {
     $("#text1e").height(div2Height);
   }
+  var vl = $("#section2").height();
+  var vh = $(window).height();
+  if (vh > vl) {
+    $("#section2").height(vh);
+  }
 };
 $(window).resize(function () {
   var div1Height = $("#text1e").height();
@@ -77,5 +83,10 @@ $(window).resize(function () {
     $("#text2e").height(div1Height);
   } else {
     $("#text1e").height(div2Height);
+  }
+  var vl = $("#section2").height();
+  var vh = $(window).height();
+  if (vh > vl) {
+    $("#section2").height(vh);
   }
 });
