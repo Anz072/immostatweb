@@ -35,21 +35,16 @@ languageSwitch.addEventListener("mouseleave", function () {
 });
 
 $(document).ready(function () {
-  // if ($(window).width() < 761) {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
       $("header").addClass("header-bg");
       $("header").css("animation", "ease3f 0.2s ease-in");
       $("header.header-bg").css("animation-fill-mode", "forwards");
-      //   $("header").css("animation-fill-mode", "forwards");
       $(".language-switch").css("background-color", "rgba(82, 82, 82, 0.905)");
-      // $("header").addClass("header-bf");
       $("#hero1").css("color", "#fff");
       $("#lang2").css("color", "#fff");
     } else {
       $("header").removeClass("header-bg");
-      //   $("header.header-bg").css("animation-fill-mode", "none");
-      // $("header").removeClass("header-bf");
       $("#lang2").css("color", "#33383b");
       $("#hero1").css("color", "#33383b");
     }
@@ -59,7 +54,6 @@ $(document).ready(function () {
     }
   });
   // }
-  console.log("dabz");
 });
 
 window.onload = function () {
